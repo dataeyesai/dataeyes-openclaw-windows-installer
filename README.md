@@ -6,6 +6,7 @@ DataEyes OpenClaw 的 Windows 安装包分发仓库。
 - 提供 Windows 一键安装包下载入口
 - 发布版本说明
 - 通过 GitHub Release 分发 `.exe`
+- 提供 Windows 一键安装使用教程
 
 不建议把安装包直接提交进 Git 仓库历史，因为安装包体积较大。
 
@@ -19,11 +20,18 @@ Release 页面：
 
 - [Windows Installer 2026-03-23](https://github.com/dataeyesai/dataeyes-openclaw-windows-installer/releases/tag/windows-installer-20260323)
 
-## 使用方式
+## 使用教程
+
+- [Windows 一键安装使用教程](使用教程/README.md)
+
+如果你是第一次安装，建议先看教程再运行安装包。
+
+## 快速开始
 
 1. 下载 `openclaw.windows.exe`
 2. 在 Windows 上双击运行
-3. 按提示完成安装
+3. 按提示输入 API Key
+4. 安装完成后访问 `http://127.0.0.1:18789`
 
 ## 发布说明
 
